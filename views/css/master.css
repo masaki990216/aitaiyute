@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.br {
+  display: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sorry {
+  text-align: center;
+  padding: 50px;
+}
+
+header {
+  color: white;
+  background-color: rgb(10, 30, 90);
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 46px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.menus {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.menu {
+  color: white;
+  width: 25%;
+  border: 2px solid white;
+  float: left;
+  line-height: 25px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.menu-bar:hover {
+  cursor: pointer;
+}
+
+#open {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: block;
+}
+
+#close {
+  height: 45px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 21;
+  display: none;
+}
+
+.menu-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(100, 100, 100);
+  width: 80%;
+}
+
+.menu-list {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.menu-list a {
+  font-size: 30px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  display: block;
+  border-bottom: solid 1px white;
+}
+
+.top-wrapper {
+  color: white;
+  background-image: url("../../images/top.jpg");
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 90px;
+  padding-top: 30px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper a {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background-color: rgba(200, 200, 0, 0.8);
+  border-radius: 5px;
+}
+
+.top-wrapper a:hover {
+  background-color: rgba(200, 200, 0, 1);
+  transition: 0.5s;
+}
+.main {
+   margin-top: 30px;
+}
+
+.main-contents {
+  float: left;
+}
+
+.main-left {
+  width: 70%;
+}
+
+.article {
+  color: black;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: solid 1px rgb(10, 30, 90);
+  padding-bottom: 10px;
+}
+
+.article-contents {
+  float: left;
+}
+
+.article img {
+  width: 35%;
+}
+
+.sentence {
+  width: 65%;
+}
+
+.sentence p {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.explain {
+  padding-top: 5px;
+}
+
+.date {
+  padding-top: 5px;
+}
+
+.main-right {
+  width: 30%;
+}
+
+.profile, .line {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.profile h2 {
+  color: white;
+  background-color: rgb(10, 30, 90);
+  padding-left: 5px;
+}
+
+.profile img {
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.profile a {
+  margin-bottom: 0px;
+  border-bottom: solid 1px;
+}
+
+.feature {
+  margin: 5px 0px;
+  list-style: initial;
+}
+
+.line {
+  background-color: rgb(29, 205, 0);
+  text-align: center;
+  line-height: 80px;
+  font-size: 60px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.line a {
+  color: white;
+}
+
+.line:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(10, 30, 90);
+  line-height: 60px;
+  text-align: center;
+}
