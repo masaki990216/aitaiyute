@@ -30,6 +30,101 @@ ul {
   margin: 0 auto;
 }
 
+
+
+/* 以下がチャット */
+.chat {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+.chat .man {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+
+.chat .man img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+
+.faceicon p {
+  text-align: center;
+}
+
+.chat .chatting {
+  width: 100%;
+}
+
+.say-man {
+  display: inline-block;
+  position: relative;
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 15px;
+  background: #d7ebfe;
+}
+
+.say-man:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+
+.say-man p {
+  margin: 0;
+  padding: 0;
+}
+
+.chat .mitan {
+  float: right;
+  margin-left: -90px;
+  width: 80px;
+}
+
+.chat .mitan img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #f6adc6;
+  border-radius: 50%;
+}
+
+.say-mitan {
+  display: inline-block;
+  position: relative;
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 15px;
+  background: #f6adc6;
+  float: right;
+  right: 100px;
+}
+
+.say-mitan:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: 100%;
+  border: 12px solid transparent;
+  border-left: 12px solid #f6adc6;
+}
+
+.say-mitan p {
+  margin: 0;
+  padding: 0;
+}
+/* 以上がチャット */
+
+
 header {
   color: white;
   background-color: rgb(10, 30, 90);
