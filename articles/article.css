@@ -67,6 +67,7 @@ ul {
   padding: 17px 13px;
   border-radius: 15px;
   background: #d7ebfe;
+  max-width: 70%;
 }
 
 .say-man:after {
@@ -106,6 +107,7 @@ ul {
   background: #f6adc6;
   float: right;
   right: 100px;
+  max-width: 70%;
 }
 
 .say-mitan:before {
