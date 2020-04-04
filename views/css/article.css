@@ -277,6 +277,48 @@ header h1 {
   padding: 10px 0px;
 }
 
+
+/* 以下、他の記事の共有*/
+
+.share-article {
+  width: 95%;
+  margin: 0 auto;
+  border: solid 1px rgb(10, 30, 90);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.article-contents {
+  float: left;
+}
+
+.share-article img {
+  width: 40%;
+}
+
+.sentence {
+  width: 60%;
+}
+
+.sentence p {
+  color: black;
+  width: 95%;
+  margin: 0 auto;
+  line-height: normal;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.date {
+  padding-top: 5px;
+}
+
+/* 以下、他の記事の共有*/
+
+
 .main-right {
   width: 30%;
 }
