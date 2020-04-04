@@ -34,6 +34,10 @@ p {
   line-height: 2em;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 
 /* 以下チャット形式部分 */
 
